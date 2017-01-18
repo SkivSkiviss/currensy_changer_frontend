@@ -10,17 +10,26 @@
 <body>
    <div id = "header">
     <script type="text/javascript" src="./scripts/script.js"></script>
-       <div id="content">
-       <div id="val">
-    <input type="text" id="from"title="Выберите валюту ">
-       </div>
-       <div id="" >
-    <input type="text" id="to" title="Конвертировать в ">
+       <div>
+       <div class= "new-select-style-wpandyou ">
+           <h1>Выберите валюту</h1> 
+    <select id="from"title="Выберите валюту " >
+        <option>EUR</option>
+        <option>USD</option>
+    </select>
+           </div>
+       <div class= "new-select-style-wpandyou ">
+           <h1>Конвертировать в </h1>
+    <select id="to" title="Конвертировать в ">
+        <option>EUR</option>
+        <option>USD</option>
+    </select>
         </div>
-       <div id="">
+       <div>
+           <h1>Сумма</h1>
     <input type="text"id="cnt"title="Сумма"><br><br>
        </div>
-       <div id="">
+       <div>
     <input type="button" value="Расчитать"onclick="chetchik()">
        </div>
     <br>

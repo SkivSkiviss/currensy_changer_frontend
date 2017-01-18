@@ -1,12 +1,25 @@
 #header {
     border: 1px solid #b5b7ba;
-    background-color: #97b9ef;
+    background-color: #2980b9;
     min-width: 1280px;
     text-align: center;
     padding-top: 18px;
+   
 }
 
-#header.button {
-    margin-top : 1000px;
-    margin-bottom: 50px;
-}
+h1 {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 100%; /* Размер шрифта в процентах */ 
+       } 
+.new-select-style-wpandyou select {
+    border-radius: 0;
+    background:#ecf0f1;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 268px;
+   }
+   
